@@ -4,7 +4,6 @@ import GameCard from "./GameCard";
 
 const GameGrid = () => {
   const { games, error } = useGames();
-  console.log(games);
   return (
     <>
       {error && <Text>{error}</Text>}
